@@ -1,4 +1,5 @@
 import requests
+import json
 
 #ENDPOINTS
 RMV_URI = 'https://www.rmv.de/hapi/departureBoard'
@@ -44,10 +45,12 @@ payload_ow = {'id': DIETZENBACH_LOC_ID, 'APPID': APP_ID, 'units': UNIT}
 r_rmv = requests.get(RMV_URI, params=payload_rmv)
 r_ow = requests.get(OW_FORECAST, params=payload_ow)
 
-printme(r_rmv.url)
-printme(r_rmv.json())
+#printme(r_rmv.url)
+#printme(r_rmv.json())
 
-printme(r_ow.url)
-printme(r_ow.json())
+#printme(r_ow.url)
+#printme(r_ow.json())
 
+parsed_json = json.loads(r_rmv.text)
+printme(r_rmv.text)
 
