@@ -1,5 +1,4 @@
 import requests
-import json
 
 #ENDPOINTS
 RMV_URI = 'https://www.rmv.de/hapi/departureBoard'
@@ -51,6 +50,13 @@ r_ow = requests.get(OW_FORECAST, params=payload_ow)
 #printme(r_ow.url)
 #printme(r_ow.json())
 
-parsed_json = json.loads(r_rmv.text)
-printme(r_rmv.text)
+data_rmv = r_rmv.json()
 
+print (data_rmv['serverVersion'])
+print (data_rmv['requestId'])
+print (data_rmv['Departure'][1]['Product']['line'])
+print (data_rmv['Departure'][1]['direction'])
+print (data_rmv['Departure'][1]['stop'])
+print (data_rmv['Departure'][1]['date'])
+print (data_rmv['Departure'][1]['time'])
+print (data_rmv['Departure'][1]['JourneyStatus'])
