@@ -33,10 +33,6 @@ def printme(str):
     print(str)
     return
 
-#CONSOLE TEST OUTPUT
-msg = "hello world!"
-printme(msg)
-
 #PAYLOAD TESTS
 payload_rmv = {'accessId': ACCESS_ID, 'id': DIETZENBACH_ID, 'format': FORMAT, 'lines': LINES, 'rtMode': RT_MODE}
 payload_ow = {'id': DIETZENBACH_LOC_ID, 'APPID': APP_ID, 'units': UNIT}
@@ -44,19 +40,34 @@ payload_ow = {'id': DIETZENBACH_LOC_ID, 'APPID': APP_ID, 'units': UNIT}
 r_rmv = requests.get(RMV_URI, params=payload_rmv)
 r_ow = requests.get(OW_FORECAST, params=payload_ow)
 
-#printme(r_rmv.url)
-#printme(r_rmv.json())
-
-#printme(r_ow.url)
-#printme(r_ow.json())
-
 data_rmv = r_rmv.json()
+data_ow = r_ow.json()
 
-print (data_rmv['serverVersion'])
-print (data_rmv['requestId'])
-print (data_rmv['Departure'][1]['Product']['line'])
-print (data_rmv['Departure'][1]['direction'])
-print (data_rmv['Departure'][1]['stop'])
-print (data_rmv['Departure'][1]['date'])
-print (data_rmv['Departure'][1]['time'])
-print (data_rmv['Departure'][1]['JourneyStatus'])
+#GENERAL API CALL INFOS
+print ("Server Version: " + data_rmv['serverVersion'])
+print ("Request ID: " + data_rmv['requestId'])
+print ("API Call Status Code RMV: " + str(r_rmv.status_code))
+print ("API Call Status Code OpenWeather: " + str(r_ow.status_code))
+print ("---" '\n' '\n')
+
+#WEATHER INFO
+print ("Current Forecast time: " + str(data_ow['list'][0]['dt_txt']))
+print ("Current Temperature: " + str(data_ow['list'][0]['main']['temp']))
+print ("Current Weather: " + data_ow['list'][0]['weather']['main'])
+print ("Current Weather ID: " + str(data_ow['list'][0]['weather']['main']))
+
+print ("Next Forecast time: " + str(data_ow['list'][1]['dt_txt']))
+print ("Current Temperature: " + str(data_ow['list'][1]['main']['temp']))
+print ("Current Weather: " + str(data_ow['list'][1]['weather']['main']))
+print ("Current Weather ID: " + str(data_ow['list'][1]['weather']['main']))
+print ("---" '\n' '\n')
+
+
+for each in data_rmv['Departure']:
+    print ("S-Bahn Linie: " + each['Product']['line'])
+    print ("Richtung: " + each['direction'])
+    print ("Haltestelle: " + each['stop'])
+    print ("Datum: " + each['date'])
+    print ("Uhrzeit: " + each['time'])
+    print ("Status: " + each['prognosisType'])
+    print ("---" '\n' '\n')
