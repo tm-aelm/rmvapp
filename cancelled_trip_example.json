@@ -1,0 +1,465 @@
+{
+	"Departure": [{
+			"JourneyDetailRef": {
+				"ref": "1|244457|0|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10163",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 21
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 21
+					}, {
+						"value": "36241",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 21
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:22:00",
+			"date": "2018-12-20",
+			"cancelled": true,
+			"reachable": false,
+			"direction": "Dietzenbach Bahnhof",
+			"trainNumber": "10163",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244461|18|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10070",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "35252",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:23:00",
+			"date": "2018-12-20",
+			"track": "2",
+			"rtTime": "16:23:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "2",
+			"reachable": true,
+			"direction": "Niedernhausen Bahnhof",
+			"trainNumber": "10070",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244440|9|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10125",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "35251",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:37:00",
+			"date": "2018-12-20",
+			"track": "1",
+			"rtTime": "16:38:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "1",
+			"reachable": true,
+			"direction": "Dietzenbach Bahnhof",
+			"trainNumber": "10125",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244463|2|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10100",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "36248",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:38:00",
+			"date": "2018-12-20",
+			"partCancelled": true,
+			"reachable": false,
+			"direction": "Niedernhausen Bahnhof",
+			"trainNumber": "10100",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244442|0|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10143",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "36243",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:52:00",
+			"date": "2018-12-20",
+			"track": "1",
+			"rtTime": "16:57:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "1",
+			"reachable": true,
+			"direction": "Dietzenbach Bahnhof",
+			"trainNumber": "10143",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244461|19|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10069",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "35254",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "16:53:00",
+			"date": "2018-12-20",
+			"track": "2",
+			"rtTime": "16:53:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "2",
+			"reachable": true,
+			"direction": "Niedernhausen Bahnhof",
+			"trainNumber": "10069",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244448|9|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10171",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "35253",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "17:07:00",
+			"date": "2018-12-20",
+			"track": "1",
+			"rtTime": "17:08:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "1",
+			"reachable": true,
+			"direction": "Dietzenbach Bahnhof",
+			"trainNumber": "10171",
+			"trainCategory": "SBU"
+		}, {
+			"JourneyDetailRef": {
+				"ref": "1|244463|3|80|20122018"
+			},
+			"JourneyStatus": "P",
+			"Product": {
+				"name": "      S2",
+				"num": "10099",
+				"line": "S2",
+				"catOut": "S       ",
+				"catIn": "SBU",
+				"catCode": "3",
+				"catOutS": "SBU",
+				"catOutL": "S-Bahn",
+				"operatorCode": "DBR",
+				"operator": "DB Regio AG S-Bahn Rhein-Main",
+				"admin": "800528"
+			},
+			"Notes": {
+				"Note": [{
+						"value": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+						"key": "EH",
+						"type": "A",
+						"priority": 560,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "Klimaanlage",
+						"key": "yk",
+						"type": "A",
+						"priority": 610,
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}, {
+						"value": "36250",
+						"key": "FD",
+						"type": "I",
+						"routeIdxFrom": 0,
+						"routeIdxTo": 26
+					}
+				]
+			},
+			"name": "      S2",
+			"type": "S",
+			"stop": "Dietzenbach Steinberg Bahnhof",
+			"stopid": "A=1@O=Dietzenbach Steinberg Bahnhof@X=8793904@Y=50023316@U=80@L=3011520@",
+			"stopExtId": "3011520",
+			"prognosisType": "PROGNOSED",
+			"time": "17:08:00",
+			"date": "2018-12-20",
+			"track": "2",
+			"rtTime": "17:08:00",
+			"rtDate": "2018-12-20",
+			"rtTrack": "2",
+			"reachable": true,
+			"direction": "Niedernhausen Bahnhof",
+			"trainNumber": "10099",
+			"trainCategory": "SBU"
+		}
+	],
+	"serverVersion": "1.9",
+	"dialectVersion": "1.23",
+	"requestId": "1545319174730"
+}

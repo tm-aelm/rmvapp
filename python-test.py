@@ -34,7 +34,7 @@ def printme(str):
     return
 
 #PAYLOAD TESTS
-payload_rmv = {'accessId': ACCESS_ID, 'id': HAUPTWACHE_ID, 'format': FORMAT, 'lines': LINES, 'rtMode': RT_MODE}
+payload_rmv = {'accessId': ACCESS_ID, 'id': DIETZENBACH_ID, 'format': FORMAT, 'lines': LINES, 'rtMode': RT_MODE}
 payload_ow = {'id': DIETZENBACH_LOC_ID, 'APPID': APP_ID, 'units': UNIT}
 
 r_rmv = requests.get(RMV_URI, params=payload_rmv)
