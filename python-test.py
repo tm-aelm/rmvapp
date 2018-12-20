@@ -34,7 +34,7 @@ def printme(str):
     return
 
 #PAYLOAD TESTS
-payload_rmv = {'accessId': ACCESS_ID, 'id': DIETZENBACH_ID, 'format': FORMAT, 'lines': LINES, 'rtMode': RT_MODE}
+payload_rmv = {'accessId': ACCESS_ID, 'id': HAUPTWACHE_ID, 'format': FORMAT, 'lines': LINES, 'rtMode': RT_MODE}
 payload_ow = {'id': DIETZENBACH_LOC_ID, 'APPID': APP_ID, 'units': UNIT}
 
 r_rmv = requests.get(RMV_URI, params=payload_rmv)
@@ -53,13 +53,15 @@ print ("---" '\n' '\n')
 #WEATHER INFO
 print ("Current Forecast time: " + str(data_ow['list'][0]['dt_txt']))
 print ("Current Temperature: " + str(data_ow['list'][0]['main']['temp']))
-print ("Current Weather: " + data_ow['list'][0]['weather']['main'])
-print ("Current Weather ID: " + str(data_ow['list'][0]['weather']['main']))
-
-print ("Next Forecast time: " + str(data_ow['list'][1]['dt_txt']))
-print ("Current Temperature: " + str(data_ow['list'][1]['main']['temp']))
-print ("Current Weather: " + str(data_ow['list'][1]['weather']['main']))
-print ("Current Weather ID: " + str(data_ow['list'][1]['weather']['main']))
+print ("Current Weather: " + str(data_ow['list'][0]['weather'][0]['main']))
+print ("Current Weather: " + str(data_ow['list'][0]['weather'][0]['description']))
+print ("Current Weather ID: " + str(data_ow['list'][0]['weather'][0]['id']))
+print ("---")
+print ("Next Forecast time: " + str(data_ow['list'][0]['dt_txt']))
+print ("Next Temperature: " + str(data_ow['list'][0]['main']['temp']))
+print ("Next Weather: " + str(data_ow['list'][0]['weather'][0]['main']))
+print ("Next Weather: " + str(data_ow['list'][0]['weather'][0]['description']))
+print ("Next Weather ID: " + str(data_ow['list'][0]['weather'][0]['id']))
 print ("---" '\n' '\n')
 
 
@@ -68,6 +70,7 @@ for each in data_rmv['Departure']:
     print ("Richtung: " + each['direction'])
     print ("Haltestelle: " + each['stop'])
     print ("Datum: " + each['date'])
-    print ("Uhrzeit: " + each['time'])
+    print ("Scheduled: " + each['time'])
+    print ("Estimated: " + each['rtTime'])
     print ("Status: " + each['prognosisType'])
     print ("---" '\n' '\n')
